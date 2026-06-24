@@ -5,11 +5,10 @@ __pycache__/
 *.pyc
 
 # Data & Output files
-# IMPORTANT: Never push the raw PDFs to GitHub!
 data/
 *.log
 
-# Optional: Ignore local manifests if they get too large or change too frequently
+# Auto-generated manifests and indexes
 district_pdf_index.json
 pdf_manifest.json
 
