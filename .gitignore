@@ -1,0 +1,23 @@
+# Environments
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Data & Output files
+# IMPORTANT: Never push the raw PDFs to GitHub!
+data/
+*.log
+
+# Optional: Ignore local manifests if they get too large or change too frequently
+district_pdf_index.json
+pdf_manifest.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
