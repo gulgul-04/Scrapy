@@ -20,3 +20,8 @@ logging.basicConfig(
     level=logging.ERROR,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
+
+INTERIM_DIR = DATA_DIR / "interim"
+INTERIM_DIR.mkdir(parents=True, exist_ok=True)
+
+RAW_SOWING_DATA = INTERIM_DIR / "raw_pdf_sowing_data.csv"
